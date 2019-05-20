@@ -77,8 +77,7 @@ public class Doubler {
 					new FileInputStream(inputFileName));
 		} catch(FileNotFoundException e) {
 			System.out.println("File " + inputFileName + " not found.");
-			System.exit(0);
-		} catch (IOException e) {
+			System.exit(0);		} catch (IOException e) {
 			System.out.println("Error opening input file: " + inputFileName);
 		}
 	}
